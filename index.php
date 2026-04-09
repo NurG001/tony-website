@@ -20,50 +20,51 @@
         "addressCountry": "UK"
       },
       "openingHours": "Mo,Tu,We,Th,Fr 07:30-17:00, Sa 08:00-12:00",
-      "areaServed": {
-        "@type": "State",
-        "name": "Kent"
-      },
-      "description": "Bespoke garden landscaping, maintenance, garden rooms, and tree work in Maidstone and Kent. Over 30 years of family-run excellence.",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Maidstone"
+        },
+        {
+          "@type": "City",
+          "name": "Sevenoaks"
+        }
+      ],
+      "description": "At Cyril Ernest Landscapes, we specialise in bespoke garden landscaping and maintenance. With over 30 years of experience, we are a company you can trust.",
       "priceRange": "££"
     }
     </script>
 
-<section class="relative min-h-[100svh] flex flex-col pt-24 pb-16 overflow-hidden bg-brand-dark">
-        
-        <div class="absolute inset-0 w-full h-full z-0 hero-slideshow">
-            <img src="assets/imgs/slideshow1.jpg" alt="Landscaping Background 1" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out active">
-            <img src="assets/imgs/slideshow2.jpg" alt="Landscaping Background 2" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-            <img src="assets/imgs/slideshow3.jpg" alt="Landscaping Background 3" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-            <img src="assets/imgs/slideshow4.jpg" alt="Landscaping Background 4" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-            <img src="assets/imgs/slideshow5.jpg" alt="Landscaping Background 5" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-            <img src="assets/imgs/slideshow6.jpg" alt="Landscaping Background 6" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-            <img src="assets/imgs/slideshow7.jpg" alt="Landscaping Background 7" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-            <img src="assets/imgs/slideshow8.jpg" alt="Landscaping Background 8" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-            <img src="assets/imgs/slideshow9.jpg" alt="Landscaping Background 9" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
-        </div>
+ <section class="relative min-h-[100svh] flex flex-col pt-24 pb-16 overflow-hidden bg-brand-dark">
+    
+    <div class="absolute inset-0 w-full h-full z-0 hero-slideshow">
+        <img src="assets/Tony Best Pictures/HERO/HERO_1.webp" alt="Landscaping Background 1" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out active">
+        <img src="assets/Tony Best Pictures/HERO/HERO_2.webp" alt="Landscaping Background 2" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
+        <img src="assets/Tony Best Pictures/HERO/HERO_3.webp" alt="Landscaping Background 3" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
+        <img src="assets/Tony Best Pictures/HERO/HERO_4.webp" alt="Landscaping Background 4" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
+        <img src="assets/Tony Best Pictures/HERO/HERO_5.webp" alt="Landscaping Background 5" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
+        <img src="assets/Tony Best Pictures/HERO/HERO_6.webp" alt="Landscaping Background 6" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
+        <img src="assets/Tony Best Pictures/HERO/HERO_7.webp" alt="Landscaping Background 7" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-[2000ms] ease-in-out">
+    </div>
 
-        <div class="absolute inset-0 bg-black/50 z-10"></div>
+    <div class="absolute inset-0 bg-black/50 z-10"></div>
 
-        <div class="relative z-20 flex-grow flex flex-col items-center justify-center text-center px-4 sm:px-8 w-full max-w-[96rem] mx-auto reveal reveal-up">
-             
-             <h1 class="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] font-bold mb-6 leading-tight text-white drop-shadow-2xl tracking-wide uppercase">
-                Content
-            </h1>
+    <div class="relative z-20 flex-grow flex flex-col items-center justify-center text-center px-4 sm:px-8 w-full max-w-[96rem] mx-auto reveal reveal-up">
+         
+         <h1 class="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] font-bold mb-6 leading-tight text-white drop-shadow-2xl tracking-wide uppercase">
+            Cyril Ernest Landscapes
+        </h1>
 
-            <p class="font-body text-lg md:text-xl text-white/95 font-medium leading-relaxed max-w-3xl drop-shadow-md mb-8">
-                Bespoke Garden Landscaping in Kent. Over 30 years of family-run excellence tailored to your unique needs.
-            </p>
+        <p class="font-body text-lg md:text-xl text-white/95 font-medium leading-relaxed max-w-3xl drop-shadow-md mb-8">
+            Taking pride in delivering high-quality gardening and landscaping services tailored to your specific needs. Trustworthy, loyal, and professional since 1996.
+        </p>
 
+        <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center justify-center w-full sm:w-auto">
+            
             <a href="contact.php"
-                class="group relative inline-flex items-center justify-between gap-4 pl-8 pr-3 py-3 bg-[#E74040] text-white font-body font-bold text-xl rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none shadow-[0_0_20px_rgba(231,64,64,0.4)]">
-
+                class="group relative inline-flex items-center justify-between gap-4 pl-8 pr-3 py-3 bg-[#E74040] text-white font-body font-bold text-xl rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none shadow-[0_0_20px_rgba(231,64,64,0.4)] w-full sm:w-auto">
                 <span class="absolute right-2 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/20 rounded-full transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-[25] z-0"></span>
-
-                <span class="relative z-10 transition-colors duration-500">
-                    Get Your Free Estimate
-                </span>
-
+                <span class="relative z-10 transition-colors duration-500">Get Free Estimate</span>
                 <span class="relative z-10 w-12 h-12 flex items-center justify-center bg-white rounded-full">
                     <svg class="w-6 h-6 text-[#E74040] -rotate-45 transition-transform duration-500 ease-in-out group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path>
@@ -71,11 +72,36 @@
                 </span>
             </a>
 
+<a href="gallery.php"
+    class="group relative inline-flex items-center justify-between gap-4 pl-8 pr-3 py-3 bg-white text-[#E74040] font-body font-bold text-xl rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none shadow-xl w-full sm:w-auto">
+    
+    <span class="absolute right-2 top-1/2 -translate-y-1/2 w-12 h-12 bg-gray-50 rounded-full transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-[25] z-0"></span>
+    
+    <span class="relative z-10 transition-colors duration-500">
+        View Our Gallery
+    </span>
+
+    <span class="relative z-10 w-12 h-12 flex items-center justify-center bg-[#E74040] rounded-full">
+        <svg class="w-6 h-6 text-white -rotate-45 transition-transform duration-500 ease-in-out group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path>
+        </svg>
+    </span>
+</a>
+
         </div>
-    </section>
+
+    </div>
+</section>
 
     <style>
         .hero-slideshow img.active { opacity: 1; }
+        .scrolling-wrapper { overflow: hidden; white-space: nowrap; display: flex; width: 100%; cursor: default;}
+        .scrolling-track { display: flex; width: max-content; animation: scrollBanner 35s linear infinite; }
+        .scrolling-wrapper:hover .scrolling-track, .scrolling-track:hover { animation-play-state: running !important; }
+        @keyframes scrollBanner { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+        .hover-item { transition: opacity 0.3s ease; }
+        .scrolling-wrapper:hover .hover-item { opacity: 0.5; }
+        .scrolling-wrapper .hover-item:hover { opacity: 1; }
     </style>
 
     <script>
@@ -92,16 +118,6 @@
         });
     </script>
 
-    <style>
-        .scrolling-wrapper { overflow: hidden; white-space: nowrap; display: flex; width: 100%; cursor: default;}
-        .scrolling-track { display: flex; width: max-content; animation: scrollBanner 35s linear infinite; }
-        .scrolling-wrapper:hover .scrolling-track, .scrolling-track:hover { animation-play-state: running !important; }
-        @keyframes scrollBanner { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-        .hover-item { transition: opacity 0.3s ease; }
-        .scrolling-wrapper:hover .hover-item { opacity: 0.5; }
-        .scrolling-wrapper .hover-item:hover { opacity: 1; }
-    </style>
-
     <div class="bg-[#E74040] text-brand-beige py-5 border-y border-brand-dark/20 shadow-inner">
         <div class="scrolling-wrapper">
             <div class="scrolling-track flex items-center font-body font-medium tracking-wide text-sm md:text-base">
@@ -117,15 +133,15 @@
                     </div>
                     <div class="flex items-center gap-3 hover-item">
                         <svg class="w-6 h-6 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                        Fully Bespoke Designs
+                        Exceptional Workmanship
                     </div>
                     <div class="flex items-center gap-3 hover-item">
                         <svg class="w-6 h-6 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        Trustworthy & Reliable
+                        Trustworthy & Loyal
                     </div>
                     <div class="flex items-center gap-3 hover-item">
                         <svg class="w-6 h-6 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-                        Free Estimates & Advice
+                        Initial Free Estimates & Advice
                     </div>
                 </div>
                 <div class="flex items-center gap-12 md:gap-20 px-6 md:px-10">
@@ -139,15 +155,15 @@
                     </div>
                     <div class="flex items-center gap-3 hover-item">
                         <svg class="w-6 h-6 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                        Fully Bespoke Designs
+                        Exceptional Workmanship
                     </div>
                     <div class="flex items-center gap-3 hover-item">
                         <svg class="w-6 h-6 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        Trustworthy & Reliable
+                        Trustworthy & Loyal
                     </div>
                     <div class="flex items-center gap-3 hover-item">
                         <svg class="w-6 h-6 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-                        Free Estimates & Advice
+                        Initial Free Estimates & Advice
                     </div>
                 </div>
 
@@ -178,17 +194,17 @@
                 <div class="w-full lg:w-[50%] order-2 lg:order-1 flex flex-col items-center text-center lg:items-start lg:text-left reveal reveal-up mt-8 lg:mt-0">
 
                     <span class="inline-block px-5 py-1.5 bg-[#E74040] text-white border border-[#E74040] rounded-full text-sm tracking-widest uppercase mb-6 font-normal">
-                        A Legacy of Excellence
+                        Our Story
                     </span>
 
                     <h2 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-normal text-brand-dark mb-8 leading-tight flex flex-col items-center lg:items-start">
-                        Over 30 Years of Passionate Landscaping
+                        Over 30 Years of Horticultural Excellence
                         <span class="block w-20 h-[3px] bg-[#E74040] mt-4 lg:mt-6 rounded-full"></span>
                     </h2>
 
                     <div class="font-body text-base sm:text-lg md:text-xl text-brand-dark/80 leading-relaxed space-y-6 mb-10 max-w-2xl">
-                        <p>With a passion for the great outdoors from a young age, founder Tony Tearle studied at a leading horticultural college to build a foundation of expert knowledge. The company was named in loving memory of his father, Cyril Ernest, whom he lost during his training.</p>
-                        <p>Now in our 30th year, Cyril Ernest Landscapes continues to deliver exceptional workmanship, loyalty, and reliability. From intricate garden rooms to complete landscaping redesigns, we bring expert knowledge and a genuine passion for excellence to every project.</p>
+                        <p>With a passion for the great outdoors from a young age, Tony Tearle went on to study at one of the leading horticultural colleges and universities, gaining the knowledge and foundations needed to build a successful family-run company. The name Cyril Ernest was chosen in tribute to his father, whom he sadly lost during his training, honouring his memory through the business.</p>
+                        <p>Now in our 30th year in the industry, Cyril Ernest Landscapes continues to provide a wide range of services to our clients, driven by a genuine passion for the sector and a commitment to excellence. As a trustworthy, loyal, and professional team, we are committed to providing exceptional workmanship and a reliable service you can depend on.</p>
                     </div>
 
                     <div class="grid grid-cols-3 gap-4 sm:gap-8 md:gap-10 border-t border-brand-dark/10 pt-8 mt-2 mb-12 w-full max-w-xl mx-auto lg:mx-0">
@@ -283,7 +299,7 @@
                 </h2>
 
                 <p class="font-body text-base sm:text-lg md:text-xl text-brand-text/70 max-w-2xl mx-auto leading-relaxed mt-2">
-                    We offer a comprehensive range of horticultural and landscaping services, all undertaken in-house to guarantee quality, attention to detail, and customer satisfaction.
+                    We offer a comprehensive range of services, all undertaken in-house. From bespoke garden design to complete revitalisation, all of our services are delivered with the same commitment to quality, attention to detail, and customer satisfaction.
                 </p>
             </div>
 
@@ -298,12 +314,12 @@
                             Garden Design & Landscaping
                         </h3>
                         <p class="font-body text-brand-text/80 group-hover:text-white/90 text-sm lg:text-base leading-relaxed mb-4 transition-colors duration-500">
-                            Complete garden transformations including paving, patios, walling, decking, pergolas, and driveways tailored to your space.
+                            Complete garden landscaping, including bespoke planting plans, paving, patios, walling, fencing, decking, pergolas, and driveways.
                         </p>
                         <div class="mt-auto pt-3 border-t border-brand-dark/5 group-hover:border-white/20 transition-colors duration-500 w-full">
                             <p class="font-heading font-bold text-brand-dark group-hover:text-white text-sm md:text-base mb-1 transition-colors duration-500">Perfect for</p>
                             <p class="font-body text-xs sm:text-sm text-brand-text/70 group-hover:text-white/80 transition-colors duration-500">
-                                Complete Makeovers & New Builds
+                                Complete Outdoor Revitalisation
                             </p>
                         </div>
                     </div>
@@ -315,15 +331,15 @@
                     </div>
                     <div class="flex flex-col flex-grow p-5 sm:p-6 bg-brand-beige group-hover:bg-[#E74040] transition-colors duration-500 text-center lg:text-left border border-brand-dark/5">
                         <h3 class="font-heading text-xl sm:text-2xl font-bold text-brand-dark group-hover:text-white mb-2 transition-colors duration-500">
-                            Garden Maintenance
+                            Garden Maintenance & Turfing
                         </h3>
                         <p class="font-body text-brand-text/80 group-hover:text-white/90 text-sm lg:text-base leading-relaxed mb-4 transition-colors duration-500">
-                            Professional upkeep for both private and commercial properties, including expert horticultural advice, lawn treatments, and turfing.
+                            Private and commercial garden maintenance, expert horticultural advice, natural and artificial lawn installation, and expert lawn treatments.
                         </p>
                         <div class="mt-auto pt-3 border-t border-brand-dark/5 group-hover:border-white/20 transition-colors duration-500 w-full">
                             <p class="font-heading font-bold text-brand-dark group-hover:text-white text-sm md:text-base mb-1 transition-colors duration-500">Perfect for</p>
                             <p class="font-body text-xs sm:text-sm text-brand-text/70 group-hover:text-white/80 transition-colors duration-500">
-                                Year-Round Garden Health
+                                Year-Round Property Care
                             </p>
                         </div>
                     </div>
@@ -338,12 +354,12 @@
                             Bespoke Garden Rooms
                         </h3>
                         <p class="font-body text-brand-text/80 group-hover:text-white/90 text-sm lg:text-base leading-relaxed mb-4 transition-colors duration-500">
-                            Custom-built garden rooms and bespoke sheds to enhance your outdoor living space and add lasting value to your home.
+                            Custom garden rooms, bespoke shed builds, and unique custom garden features designed and installed entirely in-house.
                         </p>
                         <div class="mt-auto pt-3 border-t border-brand-dark/5 group-hover:border-white/20 transition-colors duration-500 w-full">
                             <p class="font-heading font-bold text-brand-dark group-hover:text-white text-sm md:text-base mb-1 transition-colors duration-500">Perfect for</p>
                             <p class="font-body text-xs sm:text-sm text-brand-text/70 group-hover:text-white/80 transition-colors duration-500">
-                                Outdoor Offices & Retreats
+                                Outdoor Retreats & Offices
                             </p>
                         </div>
                     </div>
@@ -358,12 +374,12 @@
                             Arboriculture & Tree Work
                         </h3>
                         <p class="font-body text-brand-text/80 group-hover:text-white/90 text-sm lg:text-base leading-relaxed mb-4 transition-colors duration-500">
-                            Professional tree care, pruning, and safe removal by experienced horticultural experts, respecting the natural environment.
+                            Professional arboriculture and tree work, carried out safely and efficiently with immense respect for your property's natural environment.
                         </p>
                         <div class="mt-auto pt-3 border-t border-brand-dark/5 group-hover:border-white/20 transition-colors duration-500 w-full">
                             <p class="font-heading font-bold text-brand-dark group-hover:text-white text-sm md:text-base mb-1 transition-colors duration-500">Perfect for</p>
                             <p class="font-body text-xs sm:text-sm text-brand-text/70 group-hover:text-white/80 transition-colors duration-500">
-                                Tree Health & Safe Removals
+                                Tree Maintenance & Safe Removals
                             </p>
                         </div>
                     </div>
@@ -393,7 +409,7 @@
                 <div class="w-full lg:w-5/12 flex flex-col items-center text-center lg:items-start lg:text-left reveal reveal-up mt-8 lg:mt-0">
 
                     <span class="inline-block px-5 py-2 bg-[#E74040] text-white text-sm font-medium tracking-widest uppercase rounded-full mb-6">
-                        See Our Work
+                        Before & After
                     </span>
 
                     <h2 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-normal text-white leading-tight relative pb-6 mb-8 flex flex-col items-center lg:items-start">
@@ -402,7 +418,7 @@
                     </h2>
 
                     <p class="font-body text-base sm:text-lg md:text-xl text-brand-beige/80 leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0">
-                        Swipe to see a true before and after transformation. From overgrown and unused, to a bespoke, beautifully landscaped garden tailored perfectly to our client's lifestyle.
+                        Swipe to see a true before and after transformation. We bring expert knowledge and a passion for excellence to every project, turning your vision into a beautiful reality.
                     </p>
 
                     <a href="gallery.php" class="group relative inline-flex items-center justify-between gap-4 pl-6 pr-2 py-2 bg-[#E74040] text-white font-body font-bold text-lg rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none">
@@ -440,96 +456,98 @@
     </section>
 
     <section class="relative min-h-[100svh] py-20 flex items-center justify-center bg-white border-t border-brand-dark/5 overflow-hidden">
-        <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
+    <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
 
-            <div class="flex flex-col items-center text-center mb-12 md:mb-16 reveal reveal-up">
+        <div class="flex flex-col items-center text-center mb-12 md:mb-16 reveal reveal-up">
+            <span class="inline-block px-5 py-2 bg-[#E74040] text-white text-sm font-medium tracking-widest uppercase rounded-full mb-6">
+                Simple & Reliable
+            </span>
 
-                <span class="inline-block px-5 py-2 bg-[#E74040] text-white text-sm font-medium tracking-widest uppercase rounded-full mb-6">
-                    Simple & Reliable
-                </span>
+            <h2 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-normal text-brand-dark leading-tight flex flex-col items-center text-center relative pb-6 mb-6">
+                How We Bring Your Vision to Life
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 md:w-20 h-[3px] md:h-[4px] bg-[#E74040] rounded-full"></span>
+            </h2>
 
-                <h2 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-normal text-brand-dark leading-tight flex flex-col items-center text-center relative pb-6 mb-6">
-                    How We Bring Your Vision to Life
-                    <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-16 md:w-20 h-[3px] md:h-[4px] bg-[#E74040] rounded-full"></span>
-                </h2>
-
-                <p class="font-body text-base sm:text-lg md:text-xl text-brand-dark/70 max-w-2xl mx-auto leading-relaxed mt-2">
-                    Our process is designed to be completely hassle-free, from your first phone call to the final sign-off on your beautiful new outdoor space.
-                </p>
-            </div>
-
-            <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 w-full">
-
-<div class="w-full lg:w-[45%] reveal reveal-up">
-                    <div class="relative w-full h-[400px] md:h-[500px] lg:h-[600px] rounded-[2.5rem] overflow-hidden group border border-brand-dark/5">
-                        <img src="assets/imgs/landscaping-process.jpg" alt="Tony Tearle consulting with a client on garden design" loading="lazy" class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105">
-                    </div>
-                </div>
-
-                <div class="w-full lg:w-[55%] flex flex-col gap-4 sm:gap-6">
-
-                    <div class="group flex flex-col sm:flex-row items-center text-center sm:text-left gap-5 p-6 sm:p-8 rounded-[1.5rem] bg-brand-beige hover:bg-[#E74040] transition-all duration-500 border border-brand-dark/5 hover:border-transparent hover:shadow-xl reveal reveal-up cursor-default">
-                        <div class="flex-shrink-0 w-14 h-14 bg-white group-hover:bg-brand-dark rounded-2xl flex items-center justify-center text-brand-dark group-hover:text-white font-heading text-2xl font-bold transition-colors duration-500 shadow-sm">1</div>
-                        <div class="flex-grow">
-                            <h3 class="font-heading text-xl sm:text-2xl font-bold text-brand-dark group-hover:text-white mb-2 transition-colors duration-500">
-                                Initial Consultation & Free Advice
-                            </h3>
-                            <p class="font-body text-brand-dark/70 group-hover:text-white/90 text-sm sm:text-base leading-relaxed transition-colors duration-500">
-                                Reach out to us for a friendly chat. We'll listen to your needs, offer expert horticultural advice, and provide an initial free estimate.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0 mt-2 sm:mt-0 transition-transform duration-500 group-hover:translate-y-2 sm:group-hover:translate-y-0 sm:group-hover:translate-x-2">
-                            <svg class="w-6 h-6 text-[#E74040] group-hover:text-white rotate-90 sm:rotate-0 transition-all duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path></svg>
-                        </div>
-                    </div>
-
-                    <div class="group flex flex-col sm:flex-row items-center text-center sm:text-left gap-5 p-6 sm:p-8 rounded-[1.5rem] bg-brand-beige hover:bg-[#E74040] transition-all duration-500 border border-brand-dark/5 hover:border-transparent hover:shadow-xl reveal reveal-up cursor-default" style="transition-delay: 100ms;">
-                        <div class="flex-shrink-0 w-14 h-14 bg-white group-hover:bg-brand-dark rounded-2xl flex items-center justify-center text-brand-dark group-hover:text-white font-heading text-2xl font-bold transition-colors duration-500 shadow-sm">2</div>
-                        <div class="flex-grow">
-                            <h3 class="font-heading text-xl sm:text-2xl font-bold text-brand-dark group-hover:text-white mb-2 transition-colors duration-500">
-                                Bespoke Design & Planning
-                            </h3>
-                            <p class="font-body text-brand-dark/70 group-hover:text-white/90 text-sm sm:text-base leading-relaxed transition-colors duration-500">
-                                We create tailored planting plans, select materials, and draw up garden design schemes that reflect your style and budget perfectly.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0 mt-2 sm:mt-0 transition-transform duration-500 group-hover:translate-y-2 sm:group-hover:translate-y-0 sm:group-hover:translate-x-2">
-                            <svg class="w-6 h-6 text-[#E74040] group-hover:text-white rotate-90 sm:rotate-0 transition-all duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path></svg>
-                        </div>
-                    </div>
-
-                    <div class="group flex flex-col sm:flex-row items-center text-center sm:text-left gap-5 p-6 sm:p-8 rounded-[1.5rem] bg-brand-beige hover:bg-[#E74040] transition-all duration-500 border border-brand-dark/5 hover:border-transparent hover:shadow-xl reveal reveal-up cursor-default" style="transition-delay: 200ms;">
-                        <div class="flex-shrink-0 w-14 h-14 bg-white group-hover:bg-brand-dark rounded-2xl flex items-center justify-center text-brand-dark group-hover:text-white font-heading text-2xl font-bold transition-colors duration-500 shadow-sm">3</div>
-                        <div class="flex-grow">
-                            <h3 class="font-heading text-xl sm:text-2xl font-bold text-brand-dark group-hover:text-white mb-2 transition-colors duration-500">
-                                Quality Installation & Handover
-                            </h3>
-                            <p class="font-body text-brand-dark/70 group-hover:text-white/90 text-sm sm:text-base leading-relaxed transition-colors duration-500">
-                                Our professional in-house team executes the build with exceptional workmanship, ensuring every detail is perfect before handing back your revitalized space.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0 mt-2 sm:mt-0 transition-transform duration-500 group-hover:translate-y-2 sm:group-hover:translate-y-0 sm:group-hover:translate-x-2">
-                            <svg class="w-6 h-6 text-[#E74040] group-hover:text-white rotate-90 sm:rotate-0 transition-all duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path></svg>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="mt-12 md:mt-16 flex justify-center reveal reveal-up w-full">
-                <a href="contact.php" class="group relative inline-flex items-center justify-between gap-4 pl-6 pr-2 py-2 bg-[#E74040] text-white font-body font-bold text-lg rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none">
-                    <span class="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-brand-dark rounded-full transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-[25] z-0"></span>
-                    <span class="relative z-10 transition-colors duration-500">Start Your Project</span>
-                    <span class="relative z-10 w-10 h-10 flex items-center justify-center">
-                        <svg class="w-5 h-5 text-white -rotate-45 transition-transform duration-500 ease-in-out group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path>
-                        </svg>
-                    </span>
-                </a>
-            </div>
-
+            <p class="font-body text-base sm:text-lg md:text-xl text-brand-dark/70 max-w-2xl mx-auto leading-relaxed mt-2">
+                Our process is designed to be completely hassle-free, from your initial phone call to the final sign-off on your beautiful new outdoor space.
+            </p>
         </div>
-    </section>
+
+        <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 w-full">
+
+            <div class="w-full lg:w-[45%] reveal reveal-up">
+                <div class="relative w-full h-[400px] md:h-[500px] lg:h-[600px] rounded-[2.5rem] overflow-hidden group border border-brand-dark/5">
+                    <img src="assets/Tony Best Pictures/HERO/HERO_1.webp" 
+                         alt="Tony Tearle consulting with a client on garden design" 
+                         loading="lazy" 
+                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                </div>
+            </div>
+
+            <div class="w-full lg:w-[55%] flex flex-col gap-4 sm:gap-6">
+
+                <div class="group flex flex-col sm:flex-row items-center text-center sm:text-left gap-5 p-6 sm:p-8 rounded-[1.5rem] bg-brand-beige hover:bg-[#E74040] transition-all duration-500 border border-brand-dark/5 hover:border-transparent hover:shadow-xl reveal reveal-up cursor-default">
+                    <div class="flex-shrink-0 w-14 h-14 bg-white group-hover:bg-white rounded-2xl flex items-center justify-center text-[#E74040] group-hover:text-[#E74040] font-heading text-2xl font-bold transition-all duration-500 shadow-sm">1</div>
+                    <div class="flex-grow">
+                        <h3 class="font-heading text-xl sm:text-2xl font-bold text-brand-dark group-hover:text-white mb-2 transition-colors duration-500">
+                            Initial Free Estimates and Advice
+                        </h3>
+                        <p class="font-body text-brand-dark/70 group-hover:text-white/90 text-sm sm:text-base leading-relaxed transition-colors duration-500">
+                            Reach out to Tony for a friendly chat. We'll listen to your needs, offer expert horticultural advice, and provide an initial free estimate.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 mt-2 sm:mt-0 transition-transform duration-500 group-hover:translate-y-2 sm:group-hover:translate-y-0 sm:group-hover:translate-x-2">
+                        <svg class="w-6 h-6 text-[#E74040] group-hover:text-white rotate-90 sm:rotate-0 transition-all duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path></svg>
+                    </div>
+                </div>
+
+                <div class="group flex flex-col sm:flex-row items-center text-center sm:text-left gap-5 p-6 sm:p-8 rounded-[1.5rem] bg-brand-beige hover:bg-[#E74040] transition-all duration-500 border border-brand-dark/5 hover:border-transparent hover:shadow-xl reveal reveal-up cursor-default" style="transition-delay: 100ms;">
+                    <div class="flex-shrink-0 w-14 h-14 bg-white group-hover:bg-white rounded-2xl flex items-center justify-center text-[#E74040] group-hover:text-[#E74040] font-heading text-2xl font-bold transition-all duration-500 shadow-sm">2</div>
+                    <div class="flex-grow">
+                        <h3 class="font-heading text-xl sm:text-2xl font-bold text-brand-dark group-hover:text-white mb-2 transition-colors duration-500">
+                            Bespoke Design & Planning
+                        </h3>
+                        <p class="font-body text-brand-dark/70 group-hover:text-white/90 text-sm sm:text-base leading-relaxed transition-colors duration-500">
+                            We create tailored planting plans, select materials, and draw up comprehensive garden design schemes that reflect your style perfectly.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 mt-2 sm:mt-0 transition-transform duration-500 group-hover:translate-y-2 sm:group-hover:translate-y-0 sm:group-hover:translate-x-2">
+                        <svg class="w-6 h-6 text-[#E74040] group-hover:text-white rotate-90 sm:rotate-0 transition-all duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path></svg>
+                    </div>
+                </div>
+
+                <div class="group flex flex-col sm:flex-row items-center text-center sm:text-left gap-5 p-6 sm:p-8 rounded-[1.5rem] bg-brand-beige hover:bg-[#E74040] transition-all duration-500 border border-brand-dark/5 hover:border-transparent hover:shadow-xl reveal reveal-up cursor-default" style="transition-delay: 200ms;">
+                    <div class="flex-shrink-0 w-14 h-14 bg-white group-hover:bg-white rounded-2xl flex items-center justify-center text-[#E74040] group-hover:text-[#E74040] font-heading text-2xl font-bold transition-all duration-500 shadow-sm">3</div>
+                    <div class="flex-grow">
+                        <h3 class="font-heading text-xl sm:text-2xl font-bold text-brand-dark group-hover:text-white mb-2 transition-colors duration-500">
+                            Quality Installation & Handover
+                        </h3>
+                        <p class="font-body text-brand-dark/70 group-hover:text-white/90 text-sm sm:text-base leading-relaxed transition-colors duration-500">
+                            Our professional team executes the build. All of our services are delivered with the same commitment to quality, attention to detail, and customer satisfaction.
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0 mt-2 sm:mt-0 transition-transform duration-500 group-hover:translate-y-2 sm:group-hover:translate-y-0 sm:group-hover:translate-x-2">
+                        <svg class="w-6 h-6 text-[#E74040] group-hover:text-white rotate-90 sm:rotate-0 transition-all duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path></svg>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mt-12 md:mt-16 flex justify-center reveal reveal-up w-full">
+            <a href="contact.php" class="group relative inline-flex items-center justify-between gap-4 pl-6 pr-2 py-2 bg-[#E74040] text-white font-body font-bold text-lg rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none">
+                <span class="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-brand-dark rounded-full transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-[25] z-0"></span>
+                <span class="relative z-10 transition-colors duration-500">Start Your Project</span>
+                <span class="relative z-10 w-10 h-10 flex items-center justify-center">
+                    <svg class="w-5 h-5 text-white -rotate-45 transition-transform duration-500 ease-in-out group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path>
+                    </svg>
+                </span>
+            </a>
+        </div>
+
+    </div>
+</section>
 
     <section class="relative min-h-[100svh] py-20 flex flex-col justify-center bg-white overflow-hidden border-t border-brand-dark/5">
         <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
@@ -547,7 +565,7 @@
                     </h2>
 
                     <p class="font-body text-base sm:text-lg md:text-xl text-brand-dark/70 max-w-2xl mx-auto md:mx-0 leading-relaxed mt-2">
-                        Don't just take our word for it. Read what our loyal clients across Kent have to say about our commitment to quality.
+                        Don't just take our word for it. Read what our loyal clients across Kent have to say about our commitment to quality and exceptional workmanship.
                     </p>
                 </div>
             </div>
@@ -709,7 +727,7 @@
         });
     </script>
 
-    <section id="faq" class="relative min-h-[100svh] py-20 flex items-center justify-center bg-brand-beige">
+<section id="faq" class="relative min-h-[100svh] py-20 flex items-center justify-center bg-brand-beige">
         <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
 
             <div class="flex flex-col lg:flex-row gap-12 lg:gap-24 relative w-full">
@@ -749,14 +767,14 @@
                         <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                             <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
                                 <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
-                                    Do you provide free quotes and consultations?
+                                    Do you provide free estimates and consultations?
                                 </span>
                                 <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
                                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
                                 </span>
                             </summary>
                             <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                <span itemprop="text">Yes, we offer initial free estimates and expert horticultural advice for all our clients. We believe in complete transparency before starting any project.</span>
+                                <span itemprop="text">Yes, we offer initial free estimates and expert horticultural advice for all our clients. We believe in complete transparency before starting any project. Call Tony direct on 07772804627.</span>
                             </div>
                         </details>
 
@@ -770,7 +788,7 @@
                                 </span>
                             </summary>
                             <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                <span itemprop="text">We are based at 14 Castle View, Maidstone, and we provide our landscaping and maintenance services throughout Maidstone, Sevenoaks, and the wider Kent area.</span>
+                                <span itemprop="text">We are based at 14 Castle View, Maidstone, and provide our landscaping and maintenance services throughout Maidstone (01622 685 255), Sevenoaks (01732 884 203), and the wider Kent area.</span>
                             </div>
                         </details>
 
@@ -791,7 +809,7 @@
                         <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                             <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
                                 <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
-                                    Do you build custom garden features like sheds and decking?
+                                    Do you build custom garden features like garden rooms and decking?
                                 </span>
                                 <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
                                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
@@ -802,6 +820,90 @@
                             </div>
                         </details>
 
+                        <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+                                <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
+                                    Are you fully insured?
+                                </span>
+                                <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </summary>
+                            <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <span itemprop="text">Yes, Cyril Ernest Landscapes holds comprehensive public liability insurance. We prioritize safety and professionalism, giving you complete peace of mind while we work on your property.</span>
+                            </div>
+                        </details>
+
+                        <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+                                <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
+                                    Do you use subcontractors for your landscaping projects?
+                                </span>
+                                <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </summary>
+                            <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <span itemprop="text">No. A core part of the Cyril Ernest Standard is that all of our work is carried out by our own dedicated, in-house team. This allows us to guarantee exceptional quality control and reliable service from start to finish.</span>
+                            </div>
+                        </details>
+
+                        <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+                                <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
+                                    Can you help me design my garden from scratch?
+                                </span>
+                                <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </summary>
+                            <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <span itemprop="text">Absolutely. Tony brings extensive formal horticultural training to every project. We can create complete, bespoke garden design schemes and tailored planting plans that perfectly suit your property's soil, lighting, and your lifestyle.</span>
+                            </div>
+                        </details>
+
+                        <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+                                <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
+                                    What materials do you use for patios and paving?
+                                </span>
+                                <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </summary>
+                            <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <span itemprop="text">We work with a wide variety of high-quality materials tailored to suit your aesthetic preferences and budget. This includes natural sandstone, modern and durable porcelain paving, and traditional block paving options.</span>
+                            </div>
+                        </details>
+
+                        <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+                                <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
+                                    Are you qualified to do tree work?
+                                </span>
+                                <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </summary>
+                            <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <span itemprop="text">Yes, we provide professional arboriculture services. Our team is highly trained and experienced in handling everything from careful crown reductions and seasonal pruning to safe, complete tree dismantling and stump grinding.</span>
+                            </div>
+                        </details>
+
+                        <details class="group border-b border-brand-dark/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+                                <span class="font-heading text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-dark pr-6">
+                                    How long does a typical landscaping project take?
+                                </span>
+                                <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-brand-dark shadow-sm transition-transform duration-300 group-open:rotate-180">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </summary>
+                            <div class="text-brand-dark/70 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12 animate-fade-in" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <span itemprop="text">The timeline depends entirely on the size, scale, and complexity of the project. During your initial free consultation, we will carefully assess your requirements and provide a clear, realistic timeframe alongside your estimate.</span>
+                            </div>
+                        </details>
+
                     </div>
                 </div>
 
@@ -809,41 +911,64 @@
         </div>
     </section>
 
-    <section class="relative py-20 flex items-center justify-center bg-[#E74040] text-white overflow-hidden">
+<section
+        class="relative py-20 flex items-center justify-center bg-brand-dark text-white overflow-hidden border-t border-white/5">
+
+        <div
+            class="absolute inset-0 opacity-10 pointer-events-none bg-[radial-gradient(#E74040_1px,transparent_1px)] [background-size:20px_20px]">
+        </div>
+
         <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
 
             <div class="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8 w-full">
 
                 <div class="w-full lg:w-3/12 reveal reveal-up order-2 lg:order-1 flex justify-center lg:justify-start">
-                    <div class="relative w-full max-w-sm lg:max-w-none h-[300px] lg:h-[400px] rounded-[2rem] overflow-hidden shadow-2xl border-2 border-white/10 group">
-                        <img src="assets/imgs/beautiful-garden-patio.jpg" alt="A freshly paved patio and landscaped garden" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div
+                        class="relative w-full max-w-sm lg:max-w-none h-[300px] lg:h-[400px] rounded-[2rem] overflow-hidden shadow-2xl border-2 border-white/10 group">
+                        <img src="assets/imgs/beautiful-garden-patio.jpg"
+                            alt="A freshly paved patio and landscaped garden" loading="lazy"
+                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
                 </div>
 
-                <div class="w-full lg:w-6/12 text-center reveal reveal-up order-1 lg:order-2 flex flex-col items-center">
+                <div
+                    class="w-full lg:w-6/12 text-center reveal reveal-up order-1 lg:order-2 flex flex-col items-center">
 
-                    <h2 class="font-heading text-4xl sm:text-5xl md:text-6xl font-semibold text-white leading-tight mb-4">
+                    <h2
+                        class="font-heading text-4xl sm:text-5xl md:text-6xl font-semibold text-white leading-tight mb-4">
                         Ready to Revitalize Your Outdoor Space?
                     </h2>
 
-                    <p class="font-body text-base sm:text-lg md:text-xl text-white/85 mb-10 max-w-md mx-auto leading-relaxed mt-2">
-                        Contact us today for a free estimate and expert horticultural advice. Let the team at Cyril Ernest Landscapes build the garden of your dreams.
+                    <p
+                        class="font-body text-base sm:text-lg md:text-xl text-white/80 mb-10 max-w-md mx-auto leading-relaxed mt-2">
+                        Contact us today for a free estimate and expert horticultural advice. Let Tony and the team at
+                        Cyril Ernest Landscapes build the garden of your dreams.
                     </p>
 
-                    <a href="contact.php" class="group relative inline-flex items-center justify-between gap-4 pl-6 pr-2 py-2 bg-white font-body font-bold text-lg rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none text-[#E74040]">
-                        <span class="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-brand-dark rounded-full transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-[25] z-0"></span>
-                        <span class="relative z-10 transition-colors duration-500 group-hover:text-white">Claim Your FREE Quote</span>
-                        <span class="relative z-10 w-10 h-10 flex items-center justify-center">
-                            <svg class="w-5 h-5 text-[#E74040] transition-colors duration-500 group-hover:text-white -rotate-45 transition-transform duration-500 ease-in-out group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14m-6-6l6 6-6 6"></path>
+                    <a href="contact.php"
+                        class="group relative inline-flex items-center justify-between gap-4 pl-6 pr-2 py-2 bg-[#E74040] font-body font-bold text-lg rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 border-none text-white shadow-[0_0_20px_rgba(231,64,64,0.3)]">
+                        <span
+                            class="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:scale-[25] z-0"></span>
+                        <span class="relative z-10 transition-colors duration-500 group-hover:text-brand-dark">Claim
+                            Your FREE Quote</span>
+                        <span
+                            class="relative z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center transition-colors duration-700 group-hover:bg-brand-dark">
+                            <svg class="w-5 h-5 text-[#E74040] -rotate-45 transition-transform duration-500 ease-in-out group-hover:rotate-0 group-hover:text-white"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                    d="M5 12h14m-6-6l6 6-6 6"></path>
                             </svg>
                         </span>
                     </a>
                 </div>
 
-                <div class="w-full lg:w-3/12 reveal reveal-up order-3 flex justify-center lg:justify-end mt-0 lg:mt-16" style="transition-delay: 200ms;">
-                    <div class="relative w-full max-w-sm lg:max-w-none h-[300px] lg:h-[400px] rounded-[2rem] overflow-hidden shadow-2xl border-2 border-white/10 group">
-                        <img src="assets/imgs/garden-decking-fencing.jpg" alt="High quality timber decking and fencing" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <div class="w-full lg:w-3/12 reveal reveal-up order-3 flex justify-center lg:justify-end mt-0 lg:mt-16"
+                    style="transition-delay: 200ms;">
+                    <div
+                        class="relative w-full max-w-sm lg:max-w-none h-[300px] lg:h-[400px] rounded-[2rem] overflow-hidden shadow-2xl border-2 border-white/10 group">
+                        <img src="assets/imgs/garden-decking-fencing.jpg" alt="High quality timber decking and fencing"
+                            loading="lazy"
+                            class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
                 </div>
 

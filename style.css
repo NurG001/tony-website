@@ -8,3 +8,7 @@
     opacity: 1;
     transform: translate(0) scale(1);
 }
+
+img {
+    filter: saturate(1.5); /* 1.0 is normal, 1.5 is 50% more saturated */
+}
