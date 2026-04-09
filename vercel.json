@@ -1,0 +1,79 @@
+{
+  "cleanUrls": true,
+  "builds": [
+    {
+      "src": "*.php",
+      "use": "vercel-php@0.7.2"
+    },
+    {
+      "src": "assets/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "global.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.webmanifest",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.ico",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.png",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/style\\.css",
+      "dest": "/style.css"
+    },
+    {
+      "src": "/global\\.js",
+      "dest": "/global.js"
+    },
+    {
+      "src": "/site\\.webmanifest",
+      "dest": "/site.webmanifest"
+    },
+    {
+      "src": "/favicon\\.ico",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "/favicon-(.*)\\.png",
+      "dest": "/favicon-$1.png"
+    },
+    {
+      "src": "/apple-touch-icon\\.png",
+      "dest": "/apple-touch-icon.png"
+    },
+    {
+      "src": "/android-chrome-(.*)\\.png",
+      "dest": "/android-chrome-$1.png"
+    },
+    {
+      "src": "/(.*)\\.php",
+      "dest": "/$1.php"
+    },
+    {
+      "src": "/([^/.]+)",
+      "dest": "/$1.php"
+    },
+    {
+      "src": "/",
+      "dest": "/index.php"
+    }
+  ]
+}
